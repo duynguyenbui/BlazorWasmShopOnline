@@ -1,0 +1,29 @@
+@using ShopOnline.Web.Services.Contracts
+@implements IDisposable
+@inject IShoppingCartService ShoppingCartService
+
+<a href="" class="btn btn-info">
+    <i class="oi oi-cart"></i>&nbsp;Cart
+    <span class="badge bg-dark">@shoppingCartItemCount</span>
+</a>
+
+@code {
+    private int shoppingCartItemCount = 0;
+    
+    protected override void OnInitialized()
+    {
+        ShoppingCartService.OnShoppingCartChanged += ShopingCartChanged;
+    }
+
+    private void ShopingCartChanged(int totalQty)
+    {
+        shoppingCartItemCount = totalQty;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        ShoppingCartService.OnShoppingCartChanged -= ShopingCartChanged;
+    }
+
+}

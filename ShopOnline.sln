@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnline.Web", "ShopOnline.Web\ShopOnline.Web.csproj", "{A155FDAC-3DF6-4590-8C15-DD657B9BB702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnline.Api", "ShopOnline.Api\ShopOnline.Api.csproj", "{5B0BBE24-788F-4891-ACE6-2B3944333B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopOnline.Models", "ShopOnline.Models\ShopOnline.Models.csproj", "{FE4C29BC-0795-4C58-B493-E1A2204605FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A155FDAC-3DF6-4590-8C15-DD657B9BB702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A155FDAC-3DF6-4590-8C15-DD657B9BB702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A155FDAC-3DF6-4590-8C15-DD657B9BB702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A155FDAC-3DF6-4590-8C15-DD657B9BB702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0BBE24-788F-4891-ACE6-2B3944333B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0BBE24-788F-4891-ACE6-2B3944333B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0BBE24-788F-4891-ACE6-2B3944333B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0BBE24-788F-4891-ACE6-2B3944333B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4C29BC-0795-4C58-B493-E1A2204605FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4C29BC-0795-4C58-B493-E1A2204605FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4C29BC-0795-4C58-B493-E1A2204605FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4C29BC-0795-4C58-B493-E1A2204605FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
